@@ -32,12 +32,4 @@ A simple terminal-based quiz game written in **Python 3.15** that tests your kno
      python app.py
      ```
 
-   ---
-
-   ##   Info & Goals
-
-   -**Target:**  Become a Blockchain Developer for the US market.
-  
-   -**Mission:**  Master the fundamentals of programming today, so I can specialize in Smart Contracts and Web3 technologies tomorrow.
-
   
