@@ -1,9 +1,7 @@
 #   Blockchain Quiz Game 
 ###  Developed by samuele-cabras-web3 
 
-A simple terminal-based quiz game written in **Python 3.15** that tests your knowledge of the blockchain and cryptocurrency world. Answer the questions correctly to earn virtual tokens in your wallet!
-
- This is one of my first projects as I learn Python, with the ultimate goal of becoming a **Blockchain Developer**.
+A simple terminal-based quiz game that tests your knowledge of the blockchain and cryptocurrency world. Answer the questions correctly to earn virtual tokens in your wallet!
 
 ---
 
@@ -19,7 +17,7 @@ A simple terminal-based quiz game written in **Python 3.15** that tests your kno
 ##  Technologies Used
 
 - **Python 3.15**.
-- (core concepts used: lists, dictionaries, `for` loops, functions, and `if-else` conditions).
+- Core concepts used: lists, dictionaries, `for` loops, functions, and `if-else` conditions.
 
   ---
   
