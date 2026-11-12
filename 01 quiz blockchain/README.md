@@ -27,7 +27,7 @@ A simple terminal-based quiz game written in **Python 3.15** that tests your kno
 
   1.  Make sure you have Python installed on your computer.
   2. Download the 'app.py' file.
-  3.  Open your terminal in the folder containing the file and run the following command:
+  3. Open your terminal in the folder containing the file and run the following command:
      ```bash
      python app.py
      ```
