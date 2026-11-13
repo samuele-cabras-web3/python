@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 
-=======
 # Quiz data storage
 QUIZ_DATA = [
     {
@@ -25,8 +23,8 @@ def run_quiz():
 
     # Welcome message
     print("---WELCOME TO THE BLOCKCHAIN QUIZ---")
-    print("Answer the questions correctly to earn Tokens!💰")
-
+    print("Answer the questions correctly to earn Tokens!")
+    
     # Run the quiz loop
     for item in QUIZ_DATA:
         # Get and clean user input
@@ -35,17 +33,16 @@ def run_quiz():
         # Check answer
         if item["answer"] in user_answer:
             token_balance += 10
-            print("Correct!✔️  +10 Tokens 💰\n")
+            print("Correct! +10 Tokens \n")
         else:
-            print(f"Wrong!❌ The correct answer was: {item['answer']}.\n")
+            print(f"Wrong! The correct answer was: {item['answer']}.\n")
 
     # Display final result
     print("-" * 50)
-    print(f"QUIZ FINISHED! Your final balance is: {token_balance} Tokens 💰")
+    print(f"QUIZ FINISHED! Your final balance is: {token_balance} Tokens ")
     print("-" * 50)
 
 
 # Start the quiz
 if __name__ == "__main__":
     run_quiz()
->>>>>>> d9c8bc0c7878ee91a40acf78b5c93529b7731060
