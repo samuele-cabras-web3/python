@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 
-=======
 # Quiz data storage
 QUIZ_DATA = [
     {
@@ -48,4 +46,3 @@ def run_quiz():
 # Start the quiz
 if __name__ == "__main__":
     run_quiz()
->>>>>>> d9c8bc0c7878ee91a40acf78b5c93529b7731060
