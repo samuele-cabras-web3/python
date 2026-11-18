@@ -1,7 +1,7 @@
-# RANDOM JOKE GENERATOR
+# JOKE GENERATOR
 Developed by samuele-cabras-web3
 
-A terminal-based random joke generator that fetches jokes across multiple categories using the JokeAPI.
+A terminal-based joke generator that fetches jokes by user-selected category or randomly across multiple categories using the JokeAPI.
 
 ## Features
 - **Real-Time API Integration:** Connects to the JokeAPI Rest endpoint using the `requests` library to retrieve single and two-part jokes with safe-mode filtering enabled. 
