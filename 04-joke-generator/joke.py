@@ -26,15 +26,11 @@ VALID_CATEGORIES = ["Any", "Programming", "Pun", "Misc", "Spooky", "Christmas"]
 
 def get_joke(category: str) -> tuple[str, str | None] | None:
     """Fetches a random joke from JokeAPI based on the selected category."""
-    url = f"https://v2.jokeapi.dev/joke/{category}"
-    # safe-mode filters out explicit or offensive jokes
-    params = {
-        "safe-mode": None,
-    }
+    url = f"https://v2.jokeapi.dev/joke/{category}?safe-mode"
 
     try:
         # Request handling with timeout to prevent hanging
-        response = requests.get(url, params=params, timeout=10)
+        response = requests.get(url, timeout=10)
 
         # Handle JokeAPI rate limiting
         if response.status_code == 429:
