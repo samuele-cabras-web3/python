@@ -28,10 +28,11 @@ A terminal-based cryptocurrency price tracker that fetches real-time market pric
  
   3. Open your terminal in that folder and install the required dependency:
  ```bash
- pip install -r requirements.txt
+ python -m pip install -r requirements.txt
  ```
 
-4. Run the tracker with the following command:
+  4. Run the tracker with the following command:
  ```bash
  python tracker.py
  ```
+>**Note:**`pip` is included with standard Python installations. If `pip` is missing on your system, you can enable it by running `python -m ensurepip --upgrade` in your terminal
